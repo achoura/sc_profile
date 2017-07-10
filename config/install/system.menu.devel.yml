@@ -1,0 +1,12 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - devel
+_core:
+  default_config_hash: 8ZzMrtCekAqcy3CNmXyg7tZw_s_VnHzXWpMTEH66cno
+id: devel
+label: Development
+description: 'Links related to Devel module.'
+locked: true

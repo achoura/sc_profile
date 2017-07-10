@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vU5kjoJs5wpWHfHnZHM00DgyGfefARY03ecWSv1PW_4
+id: footer
+label: Footer
+description: 'Site information links'
+locked: true

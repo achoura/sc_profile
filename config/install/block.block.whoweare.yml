@@ -1,0 +1,30 @@
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:c6e2a05e-ea9c-4459-994c-6e5621feb880'
+  module:
+    - block_content
+    - system
+  theme:
+    - bearded
+id: whoweare
+theme: bearded
+region: '-1'
+weight: -10
+provider: null
+plugin: 'block_content:c6e2a05e-ea9c-4459-994c-6e5621feb880'
+settings:
+  id: 'block_content:c6e2a05e-ea9c-4459-994c-6e5621feb880'
+  label: 'Who We Are?'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

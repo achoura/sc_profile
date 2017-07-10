@@ -1,0 +1,104 @@
+name: Social Commerce
+type: profile
+description: 'Description of your profile.'
+core: 8.x
+
+base profile:
+  name: lightning
+  excluded_dependencies:
+    - lightning_media_instagram
+    - lightning_layout
+    - lightning_landing_page
+
+# version: VERSION
+# core: 8.x
+dependencies:
+  - address
+  - admin_toolbar
+  - admin_toolbar_tools
+  - automated_cron
+  - bg_image_formatter
+  - block
+  - block_content
+  - breakpoint
+  - ckeditor
+  - color
+  - comment
+  - commerce
+  - commerce_cart
+  - commerce_checkout
+  - commerce_cop
+  - commerce_log
+  - commerce_order
+  - commerce_payment
+  - commerce_payment_example
+  - commerce_price
+  - commerce_product
+  - commerce_promotion
+  - commerce_store
+  - commerce_variation_add_to_cart
+  - config
+  - contact
+  - contextual
+  - ctools
+  - datetime
+  - dblog
+  - default_content
+  - devel
+  - devel_generate
+  - dynamic_page_cache
+  - editor
+  - entity
+  - entity_reference_revisions
+  - entityblock
+  - field
+  - field_ui
+  - file
+  - file
+  - file_entity
+  - filter
+  - flexslider
+  - flexslider_views
+  - help
+  - history
+  - image
+  - inline_entity_form
+  - libraries
+  - link
+  - menu_link_attributes
+  - menu_link_content
+  - menu_trail_by_path
+  - menu_ui
+  - node
+  - options
+  - page_cache
+  - path
+  - pathauto
+  - profile
+  - quickedit
+  - rdf
+  - responsive_image
+  - search
+  - shortcut
+  - simple_sitemap
+  - sitemap
+  - social_commerce_tests
+  - social_media_links
+  - state_machine
+  - superfish
+  - system
+  - taxonomy
+  - text
+  - token
+  - toolbar
+  - tour
+  - update
+  - user
+  - views
+  - views_slideshow
+  - views_slideshow_cycle
+  - views_ui
+themes:
+  - bartik
+  - bearded
+  - seven

@@ -1,0 +1,33 @@
+uuid: 91a17e36-a15e-42d9-b59b-5310a8f747d3
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:2e5a5e85-47d9-4cac-ba46-bf404e4ab1bc'
+  module:
+    - block_content
+    - system
+  theme:
+    - bearded
+_core:
+  default_config_hash: 2k5KQSE0O_5H3-5t1wkQOBv__bxpVHGRWVAwUkGDr-0
+id: calltoactionbanner
+theme: bearded
+region: '-1'
+weight: -8
+provider: null
+plugin: 'block_content:2e5a5e85-47d9-4cac-ba46-bf404e4ab1bc'
+settings:
+  id: 'block_content:2e5a5e85-47d9-4cac-ba46-bf404e4ab1bc'
+  label: 'Call to Action Banner'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

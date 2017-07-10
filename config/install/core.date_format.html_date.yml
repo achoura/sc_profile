@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vNLue4TXBpFdwm439uxbAOR-1Ma5mz0SRfl7I0RVhyk
+id: html_date
+label: 'HTML Date'
+locked: true
+pattern: Y-m-d

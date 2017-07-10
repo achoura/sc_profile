@@ -1,0 +1,36 @@
+cdn_provider: ''
+_core:
+  default_config_hash: nDWPotg_BN8BFld6lkZ8-2YHieG8-LfDjmfxOGMWvYs
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: ''
+  url: 'http://social-commerce.dev/themes/custom/bearded/favicon.ico'
+  use_default: true
+schemas:
+  bootstrap: 8000
+  bearded: 8000
+logo:
+  path: 'public://logo_0.png'
+  url: ''
+  use_default: true
+table_responsive: '-1'
+table: ''
+breadcrumb_home: 1
+breadcrumb_title: 1
+region_wells:
+  navigation: ''
+  navigation_collapsible: ''
+  header: ''
+  highlighted: ''
+  help: ''
+  content_header: ''
+  content: ''
+  sidebar: ''
+  footer_first_left: ''
+  footer_first_right: ''
+  footer_second: ''
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true

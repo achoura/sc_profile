@@ -1,0 +1,73 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/block\/1?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/block_content\/basic"
+        }
+    },
+    "id": [
+        {
+            "value": "1"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "21482cda-b114-443d-a3d8-735e3f2c702d"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": "1"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "basic"
+        }
+    ],
+    "info": [
+        {
+            "value": "Why Choose Us?",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1491824207",
+            "lang": "en"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "1490621326"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p><i class=\"fa fa-drupal\">&nbsp;<\/i><\/p>\r\n<h2>Why Choose Us?<\/h2>\r\n<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<\/p>\r\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+langcode: en
+status: false
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: 8MZcLW1T8Y282ImHLKs5K5oxo2rgaD1keb95YYhC9HU
+id: comment.full
+label: 'Full comment'
+targetEntityType: comment
+cache: true

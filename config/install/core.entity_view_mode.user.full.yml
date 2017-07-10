@@ -1,0 +1,11 @@
+langcode: en
+status: false
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: xAU_1ZBcpTrZxNDJlTrIKcnVE13aHomrx2iyvRjBmrg
+id: user.full
+label: 'User account'
+targetEntityType: user
+cache: true

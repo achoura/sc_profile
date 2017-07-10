@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+_core:
+  default_config_hash: C5iHCzeE5oB7mXGf1q1wNMNkOINvZhJohwU92zwT1dU
+id: taxonomy_term.full
+label: 'Taxonomy term page'
+targetEntityType: taxonomy_term
+cache: true

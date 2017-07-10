@@ -1,0 +1,204 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/13?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/slide"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/slide\/uid": [
+            {
+                "href": "http:\/\/default\/user\/0?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/slide\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/0?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/slide\/field_slide_background": [
+            {
+                "href": "http:\/\/default\/file\/9000007?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/slide\/field_slide_image": [
+            {
+                "href": "http:\/\/default\/file\/9000006?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": "13"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "999c7e50-9952-42de-aa97-5f9a6ef88369"
+        }
+    ],
+    "vid": [
+        {
+            "value": "13"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "slide"
+        }
+    ],
+    "title": [
+        {
+            "value": "Awesome Slideshow",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/slide\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/0?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ce111e9a-f0f8-48a3-a559-6a9fcbb02e23"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/slide\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/0?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ce111e9a-f0f8-48a3-a559-6a9fcbb02e23"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/slide\/field_slide_background": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/file\/9000007?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "aebcb200-a6c2-43a3-ae89-84a7d16c550e"
+                    }
+                ],
+                "alt": "Pink background",
+                "title": "",
+                "width": "1160",
+                "height": "480"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/slide\/field_slide_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/file\/9000006?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b71dacf3-331b-458c-9f88-1a3705b3d6c9"
+                    }
+                ],
+                "alt": "Rocket",
+                "title": "",
+                "width": "351",
+                "height": "350"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "1492559504",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1494574811",
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": "0",
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": "0",
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "1492559561"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>A jQuery BxSlider Slideshow powered with CSS3 Animation<\/p>\r\n",
+            "format": "basic_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_slide_link": [
+        {
+            "uri": "internal:\/",
+            "title": "Read More",
+            "options": []
+        }
+    ]
+}

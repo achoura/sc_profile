@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: AsCD4z4l4kqTgGbs0Ayyi-LBeJZTKadsl6Cp_QOfxqE
+id: account
+label: 'User account menu'
+description: 'Links related to the active user account'
+locked: true

@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: W2lch6uRAYhnf_4MFNn42Lfy_JzRnj1poNnc3U8C3Xo
+id: html_month
+label: 'HTML Month'
+locked: true
+pattern: Y-m

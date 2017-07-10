@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: LmMzJN8tt61n9xMjIu7N1SMSmZHL3gU2yURa9e9LTyI
+id: long
+label: 'Default long date'
+locked: false
+pattern: 'l, F j, Y - H:i'

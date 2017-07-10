@@ -1,0 +1,8 @@
+channel:
+  description: ''
+items:
+  limit: 10
+  view_mode: rss
+langcode: en
+_core:
+  default_config_hash: OK2_zeBVm9yErdQdm786aIEh2qW36xkQ-L_bv3HLzMI

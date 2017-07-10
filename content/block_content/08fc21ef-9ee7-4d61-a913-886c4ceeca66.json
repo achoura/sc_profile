@@ -1,0 +1,73 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/block\/2?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/block_content\/basic"
+        }
+    },
+    "id": [
+        {
+            "value": "2"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "08fc21ef-9ee7-4d61-a913-886c4ceeca66"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": "2"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "basic"
+        }
+    ],
+    "info": [
+        {
+            "value": "What We Do?",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1491824256",
+            "lang": "en"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "1490622927"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p><i class=\"fa fa-drupal\">&nbsp;<\/i><\/p>\r\n<h2>Who We Are?<\/h2>\r\n<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<\/p>\r\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

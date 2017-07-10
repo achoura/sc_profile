@@ -1,0 +1,12 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - profile
+_core:
+  default_config_hash: pKPPpHBe0XrbM6GWJmEsI_-a1KZRep7-IQmX8aqp_CA
+id: profile_unpublish_action
+label: 'Unpublish selected profile'
+type: profile
+plugin: profile_unpublish_action
+configuration: {  }

@@ -1,0 +1,12 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - commerce_product
+_core:
+  default_config_hash: 0VtSPOb6lLgi89O431ufTrDiPra7-qIM5bimsoS3QeU
+label: Default
+id: default
+purchasableEntityType: commerce_product_variation
+orderType: default
