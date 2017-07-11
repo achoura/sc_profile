@@ -62,6 +62,11 @@
                 "type:drupal-drush"
             ]
 
+        },
+        "patches": {
+          "drupal/commerce": {
+            "Provide a Views default argument for the current user's cart ID": "https://www.drupal.org/files/issues/commerce-Views_argument_default_current_cart-2852363-5.patch"
+          }
         }
     },
     "require": {
