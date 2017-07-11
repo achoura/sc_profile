@@ -72,7 +72,7 @@
         "drupal/bootstrap": "^3.5.0",
         "drupal/commerce" : "2.x-dev",
         "drupal/commerce_variation_add_to_cart": "1.x-dev",
-        "vasike/commerce_cop": "dev-master",
+        "vasike/commerce_cop": "dev-8.x-1.x",
         "drupal/admin_toolbar": "1.x-dev",
         "drupal/flexslider": "2.x-dev",
         "drupal/easy_breadcrumb": "1.x-dev",
