@@ -22,7 +22,7 @@ function social_commerce_install() {
   // Create menu items
   CreateMenus();
   // Copy images
-  copy(DRUPAL_ROOT . '/modules/custom/social_commerce_tests/files/robot2.png', DRUPAL_ROOT . '/sites/default/files/robot2.png');
+  //copy(DRUPAL_ROOT . '/modules/custom/social_commerce_tests/files/robot2.png', DRUPAL_ROOT . '/sites/default/files/robot2.png');
 }
 
 function CreateMenus() {

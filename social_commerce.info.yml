@@ -82,7 +82,6 @@ dependencies:
   - shortcut
   - simple_sitemap
   - sitemap
-  - social_commerce_tests
   - social_media_links
   - state_machine
   - superfish
