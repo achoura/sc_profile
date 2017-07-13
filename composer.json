@@ -38,7 +38,7 @@
         "version": "1.0.0",
         "source": {
           "url": "https://github.com/angrycactus/commerce_cop",
-          "type": "vcs",
+          "type": "git",
           "reference": "1.0.0"
         }
       }
