@@ -17,8 +17,8 @@ use Drupal\block_content\Entity\BlockContent;
  */
 function social_commerce_install() {
   // First, do everything in standard profile.
-  include_once DRUPAL_ROOT . '/core/profiles/standard/standard.install';
-  standard_install();
+  //include_once DRUPAL_ROOT . '/core/profiles/standard/standard.install';
+  //standard_install();
   // Create menu items
   CreateMenus();
   // Copy images
