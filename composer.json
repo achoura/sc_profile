@@ -1,97 +1,105 @@
 {
-    "name": "achoura/sc-profile",
-    "description": "Social Commerce Profile",
-    "type": "drupal-profile",
-    "license": "GPL-2.0+",
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "require-dev": {
-      "behat/mink": "~1.7",
-      "behat/mink-goutte-driver": "~1.2",
-      "jcalderonzumba/gastonjs": "~1.0.2",
-      "jcalderonzumba/mink-phantomjs-driver": "~0.3.1",
-      "mikey179/vfsStream": "~1.2",
-      "phpunit/phpunit": "~4.8",
-      "symfony/css-selector": "~2.8",
-      "drush/drush": "8.1.11",
-      "drupal/drupal-extension": "~3.2.0",
-      "behat/behat": "^3.0",
-      "drupal/coder": "~8.2.0",
-      "phing/phing": "^2.14",
-      "drupal/devel": "^1.0",
-      "squizlabs/php_codesniffer": "2.*",
-      "se/selenium-server-standalone": "^2.53",
-      "drupal/console": "^1.0",
-      "jakoch/phantomjs-installer": "1.9.8",
-      "composer/composer": "^1.4",
-      "grasmash/yaml-cli": "^1.0"
+  "name": "achoura/sc-profile",
+  "description": "Social Commerce Profile",
+  "type": "drupal-profile",
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require-dev": {
+    "behat/mink": "~1.7",
+    "behat/mink-goutte-driver": "~1.2",
+    "jcalderonzumba/gastonjs": "~1.0.2",
+    "jcalderonzumba/mink-phantomjs-driver": "~0.3.1",
+    "mikey179/vfsStream": "~1.2",
+    "phpunit/phpunit": "~4.8",
+    "symfony/css-selector": "~2.8",
+    "drush/drush": "~8.1.11",
+    "drupal/drupal-extension": "~3.2.0",
+    "behat/behat": "^3.0",
+    "drupal/coder": "~8.2.0",
+    "phing/phing": "^2.14",
+    "drupal/devel": "^1.0",
+    "squizlabs/php_codesniffer": "2.*",
+    "se/selenium-server-standalone": "^2.53",
+    "drupal/console": "^1.0",
+    "jakoch/phantomjs-installer": "1.9.8",
+    "composer/composer": "^1.4",
+    "grasmash/yaml-cli": "^1.0"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
     },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://packages.drupal.org/8"
-        },
-        {
+    {
+      "type": "package",
+      "package": {
+        "name": "angrycactus/commerce_cop",
+        "version": "1.0.0",
+        "source": {
+          "url": "https://github.com/angrycactus/commerce_cop",
           "type": "vcs",
-          "url": "https://github.com/vasike/commerce_cop"
+          "reference": "1.0.0"
         }
-    ],
-    "scripts": {
-        "post-install-cmd": [
-            "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
-        ],
-        "post-update-cmd": [
-            "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
-        ]
-    },
-    "extra": {
-        "installer-paths": {
-            "docroot/core": [
-                "type:drupal-core"
-            ],
-            "docroot/modules/contrib/{$name}": [
-                "type:drupal-module"
-            ],
-            "docroot/profiles/contrib/{$name}": [
-                "type:drupal-profile"
-            ],
-            "docroot/themes/contrib/{$name}": [
-                "type:drupal-theme"
-            ],
-            "drush/contrib/{$name}": [
-                "type:drupal-drush"
-            ]
-
-        },
-        "patches": {
-          "drupal/commerce": {
-            "Provide a Views default argument for the current user's cart ID": "https://www.drupal.org/files/issues/commerce-Views_argument_default_current_cart-2852363-5.patch"
-          }
-        }
-    },
-    "require": {
-        "oomphinc/composer-installers-extender": "^1.1",
-        "drupal-composer/drupal-scaffold": "^2.0.0",
-        "cweagans/composer-patches": "^1.6.0",
-        "acquia/lightning": "dev-8.x-2.x",
-        "drupal/bootstrap": "^3.5.0",
-        "drupal/commerce" : "2.x-dev",
-        "drupal/commerce_variation_add_to_cart": "1.x-dev",
-        "drupal/admin_toolbar": "1.x-dev",
-        "drupal/flexslider": "2.x-dev",
-        "drupal/easy_breadcrumb": "1.x-dev",
-        "drupal/sitemap": "2.x-dev",
-        "drupal/devel":"1.x-dev",
-        "drupal/bg_image_formatter": "1.x-dev",
-        "drupal/default_content": "1.x-dev",
-        "drupal/entityblock": "1.x-dev",
-        "drupal/superfish": "1.x-dev",
-        "drupal/file_entity": "2.x-dev",
-        "drupal/views_slideshow": "4.x-dev",
-        "drupal/views_slideshow_cycle": "4.x-dev",
-        "drupal/social_media_links": "2.x-dev",
-        "drupal/menu_trail_by_path": "1.x-dev",
-        "drupal/menu_link_attributes": "1.x-dev",
-        "drupal/simple_sitemap": "2.x-dev"
+      }
     }
+  ],
+  "scripts": {
+    "post-install-cmd": [
+      "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
+    ],
+    "post-update-cmd": [
+      "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
+    ]
+  },
+  "extra": {
+    "installer-paths": {
+      "docroot/core": [
+        "type:drupal-core"
+      ],
+      "docroot/modules/contrib/{$name}": [
+        "type:drupal-module"
+      ],
+      "docroot/profiles/contrib/{$name}": [
+        "type:drupal-profile"
+      ],
+      "docroot/themes/contrib/{$name}": [
+        "type:drupal-theme"
+      ],
+      "drush/contrib/{$name}": [
+        "type:drupal-drush"
+      ]
+    },
+    "patches": {
+      "drupal/commerce": {
+        "Provide a Views default argument for the current user's cart ID": "https://www.drupal.org/files/issues/commerce-Views_argument_default_current_cart-2852363-5.patch"
+      }
+    }
+  },
+  "require": {
+    "oomphinc/composer-installers-extender": "^1.1",
+    "drupal-composer/drupal-scaffold": "^2.0.0",
+    "cweagans/composer-patches": "^1.6.0",
+    "acquia/lightning": "dev-8.x-2.x",
+    "drupal/bootstrap": "^3.5.0",
+    "drupal/commerce": "2.x-dev",
+    "drupal/commerce_variation_add_to_cart": "1.x-dev",
+    "angrycactus/commerce_cop": "1.0.0",
+    "drupal/admin_toolbar": "1.x-dev",
+    "drupal/flexslider": "2.x-dev",
+    "drupal/easy_breadcrumb": "1.x-dev",
+    "drupal/sitemap": "2.x-dev",
+    "drupal/devel": "1.x-dev",
+    "drupal/bg_image_formatter": "1.x-dev",
+    "drupal/default_content": "1.0.0-alpha4",
+    "drupal/entityblock": "1.x-dev",
+    "drupal/superfish": "1.x-dev",
+    "drupal/file_entity": "2.0.0-beta3",
+    "drupal/views_slideshow": "4.x-dev",
+    "drupal/views_slideshow_cycle": "4.x-dev",
+    "drupal/social_media_links": "2.x-dev",
+    "drupal/menu_trail_by_path": "1.x-dev",
+    "drupal/menu_link_attributes": "1.x-dev",
+    "drupal/simple_sitemap": "2.x-dev"
+  }
 }

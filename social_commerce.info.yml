@@ -1,4 +1,4 @@
-name: Social Commerce
+name: Commerce Starter
 type: profile
 description: 'Description of your profile.'
 core: 8.x
@@ -98,6 +98,6 @@ dependencies:
   - views_slideshow_cycle
   - views_ui
 themes:
-  - bartik
   - bearded
+  - bartik
   - seven
