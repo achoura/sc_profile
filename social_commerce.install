@@ -16,10 +16,13 @@ use Drupal\block_content\Entity\BlockContent;
  * @see system_install()
  */
 function social_commerce_install() {
+  // First, do everything in standard profile.
+  include_once DRUPAL_ROOT . '/core/profiles/standard/standard.install';
+  standard_install();
   // Create menu items
   CreateMenus();
   // Copy images
-  //copy(DRUPAL_ROOT . '/modules/custom/social_commerce_tests/files/robot2.png', DRUPAL_ROOT . '/sites/default/files/robot2.png');
+  copy(DRUPAL_ROOT . '/modules/custom/social_commerce_tests/files/robot2.png', DRUPAL_ROOT . '/sites/default/files/robot2.png');
 }
 
 function CreateMenus() {

@@ -3,13 +3,6 @@ type: profile
 description: 'Description of your profile.'
 core: 8.x
 
-base profile:
-  name: lightning
-  excluded_dependencies:
-    - lightning_media_instagram
-    - lightning_layout
-    - lightning_landing_page
-
 # version: VERSION
 # core: 8.x
 dependencies:
