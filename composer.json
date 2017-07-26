@@ -35,7 +35,7 @@
       "type": "package",
       "package": {
         "name": "malsup/cycle",
-        "version": "dev-master",
+        "version": "3.0.3-a",
         "type": "drupal-library",
         "dist": {
           "url": "https://github.com/malsup/cycle/archive/master.zip",
@@ -169,7 +169,7 @@
     "drupal/menu_trail_by_path": "1.1.0",
     "drupal/menu_link_attributes": "1.0.0-beta3",
     "drupal/simple_sitemap": "2.9.0",
-    "malsup/cycle": "dev-master",
+    "malsup/cycle": "3.0.3-a",
     "woocommerce/FlexSlider": "2.6.3",
     "briancherne/jquery-hoverIntent": "dev-master",
     "douglascrockford/JSON-js":"dev-master",
