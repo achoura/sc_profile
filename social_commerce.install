@@ -16,6 +16,9 @@ use Drupal\block_content\Entity\BlockContent;
  * @see system_install()
  */
 function social_commerce_install() {
+  // First, do everything in standard profile.
+  include_once DRUPAL_ROOT . '/core/profiles/standard/standard.install';
+  standard_install();
   // Create menu items
   //include_once DRUPAL_ROOT . '/core/profiles/standard/standard.install';
   //standard_install();
