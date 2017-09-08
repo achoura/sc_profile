@@ -17,9 +17,20 @@ use Drupal\block_content\Entity\BlockContent;
  */
 function social_commerce_install() {
   // Create menu items
+  //include_once DRUPAL_ROOT . '/core/profiles/standard/standard.install';
+  //standard_install();
+
+  // Set the default and admin theme.
+  \Drupal::configFactory()
+    ->getEditable('system.theme')
+    ->set('default', 'bearded')
+    ->set('admin', 'seven')
+    ->save(TRUE);
+
+  // Create menu items
   CreateMenus();
   // Copy images
-  //copy(DRUPAL_ROOT . '/modules/custom/social_commerce_tests/files/robot2.png', DRUPAL_ROOT . '/sites/default/files/robot2.png');
+  copy(DRUPAL_ROOT . '/modules/custom/social_commerce_tests/files/robot2.png', DRUPAL_ROOT . '/sites/default/files/robot2.png');
 }
 
 function CreateMenus() {

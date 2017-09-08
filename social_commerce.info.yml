@@ -9,7 +9,7 @@ base profile:
     - lightning_media_instagram
     - lightning_layout
     - lightning_landing_page
-
+    
 # version: VERSION
 # core: 8.x
 dependencies:
